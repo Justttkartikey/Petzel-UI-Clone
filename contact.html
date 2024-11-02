@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    header {
+      background-color: #f8f8f8;
+      padding: 17px;
+      text-align: center;
+    }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  font-family: 'Alata';
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 26px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  font-family:  sans-serif;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover{
+  color: #7d7b7b;
+}
+  h3{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 25px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  .custom{
+    width: 70%; 
+    height: 1px;
+    opacity: 0.7; 
+    background-color: #cccccc; 
+    border: none; 
+    margin: 20px auto;
+  }
+  .container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .container i{
+    font-size: 40px;
+    padding: 40px;
+  }
+  .container a{
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  .container a:hover{
+    color: rgba(0, 0, 255, 0.557);
+  }
+  footer {
+  margin-top: 100px;
+  background-color:  #f8f8f8;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+footer .columns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 16px;
+}
+footer .last{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+footer .last p{
+  margin-left: 30px;
+  font-size: 14px;
+}
+footer h2{
+  font-weight: 700;
+  font-family: 'Alata',sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+  </style>
+  <title>Contact - Petzel</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Petzel</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="artist.html">Artists</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <h3>Contact Us</h3>
+  <hr class="custom">
+  <div class="container">
+    <a href=""><i class='bx bxl-gmail'></i></a>
+    <a href="https://www.instagram.com/justttkartikey/"><i class='bx bxl-instagram' ></i></a>
+    <a href="https://www.linkedin.com/in/kartikey-sharma-559053291/"><i class='bx bxl-linkedin' ></i></a>
+  </div>
+  <footer>
+    <div class="columns">
+        <div class="first">
+            <p>520 W 25th Street <br>
+                New York, NY 10001 <br>
+                Tel 212 680 9467</p>
+        </div>
+        <div class="second">
+            <p>35 E 67th Street <br>
+                New York, NY 10065 <br>
+                ​Tel 212 680 9467</p>
+        </div>
+        <div class="third">
+            <p>Tuesday–Saturday <br>
+                10:00 AM–6:00 PM <br>
+                info@petzel.com</p>
+        </div>
+        <h2>Petzel</h2>
+    </div>
+    <div class="last">
+        <p>&copy; Petzel</p>
+    <p>Site Index</p>
+    <p>Privacy Policy</p>
+    </div>
+</footer>
+</body>
+</html>

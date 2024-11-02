@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+header {
+  background-color: #f8f8f8;
+  padding: 17px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  font-family: 'Alata';
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 26px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  font-family:  sans-serif;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover{
+  color: #7d7b7b;
+}
+.names{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.names a{
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+.names img{
+  height: 480px;
+  width: 40%;
+}
+footer {
+  margin-top: 100px;
+  background-color:  #f8f8f8;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+footer .columns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 16px;
+}
+footer .last{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+footer .last p{
+  margin-left: 30px;
+  font-size: 14px;
+}
+footer h2{
+  font-weight: 700;
+  font-family: 'Alata',sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
