@@ -47,7 +47,7 @@ nav h1{
 }
 
 #hero {
-  background-image: url('/assets/images/hero.jpeg'); 
+  background-image: url('assets/images/hero.jpeg'); 
   height: 650px;
   background-position: center;
   background-size: cover;
